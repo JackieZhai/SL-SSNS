@@ -1,5 +1,6 @@
 # SL-SSNS
 Official implementation of ["Addressing Distribution Mismatch for Effective Semi-Supervised Neuron Segmentation"](https://www.biorxiv.org/content/10.1101/2024.05.26.595303v1) [under review]
+For convenience, we provide a [demo](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) illustrating the subvolume selection process in both the spatial and embedding domains, which can be readily applied to your own data.
 ## Selective Labeling
 ### Pretraining
 ```
@@ -9,7 +10,6 @@ cd Pretraining
 python pretraining.py
 ```
 ### CGS Selection
-For convenience, we provide a [demo](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) illustrating the subvolume selection process in both the spatial and embedding domains, which can be readily applied to your own data.
 ```
 cd CGS
 ```
