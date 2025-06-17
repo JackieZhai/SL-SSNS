@@ -1,31 +1,40 @@
 # SL-SSNS
 Official implementation of ["Addressing Distribution Mismatch for Effective Semi-Supervised Neuron Segmentation"](https://www.biorxiv.org/content/10.1101/2024.05.26.595303v1) [under review].
 
-For convenience, we provide a [demo](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) illustrating the subvolume selection process in both the spatial and embedding domains, which can be readily applied to your own data.
-## Selective Labeling
-### Pretraining
+## 🧪 Demo: Subvolume Selection
+
+To help users better understand and apply our method, we provide an interactive [**Colab demo**](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) showcasing the **subvolume selection process** in both:
+
+- 🔹 The **spatial domain**
+- 🔹 The **embedding domain**
+
+This demo can be readily adapted to your own EM datasets.
+
+## 📦 Semi-supervised Pipeline
+### Selective Labeling
+##### Pretraining (If you want to retrain a model)
 ```
 cd Pretraining
 ```
 ```
 python pretraining.py
 ```
-### CGS Selection
+#### CGS Selection for EM Sub-volumes
 ```
 cd CGS
 ```
 ```
 python CGS.py
 ```
-## Semi-supervised Training
+### Semi-supervised Training
 ```
 cd IIC-Net
 ```
-### Supervised Warm-up
+#### Supervised Warm-up
 ```
 python warmup.py
 ```
-### Mixed-view Consistency Regularization
+#### Mixed-view Consistency Regularization
 ```
 python semi_tuning.py
 ```
