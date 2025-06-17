@@ -8,7 +8,7 @@ To help users better understand and apply our method, we provide an interactive 
 - 🔹 The **spatial domain**
 ![image](https://github.com/user-attachments/assets/30a81673-03c6-4fd5-af86-c4d0ab60c2e5)
 - 🔹 The **embedding domain**
-![image](https://github.com/user-attachments/assets/b5c1ecbe-0626-403a-b071-9ed4205ec109)
+![image](https://github.com/user-attachments/assets/a9028640-b4e4-48cc-9bb9-cf3cbebbe9f0)
 
 This demo can be readily adapted to your own EM datasets.
 
