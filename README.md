@@ -9,6 +9,7 @@ cd Pretraining
 python pretraining.py
 ```
 ### CGS Selection
+For convenience, we provide a [demo](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) illustrating the subvolume selection process in both the spatial and embedding domains, which can be readily applied to your own data.
 ```
 cd CGS
 ```
