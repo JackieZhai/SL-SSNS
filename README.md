@@ -5,9 +5,9 @@ Official implementation of ["Addressing Distribution Mismatch for Effective Semi
 
 To help users better understand and apply our method, we provide an interactive demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc) showcasing the **subvolume selection process** in both:
 
-- 🔹 The **spatial domain**
+- The **spatial domain**
 ![image](https://github.com/user-attachments/assets/30a81673-03c6-4fd5-af86-c4d0ab60c2e5)
-- 🔹 The **embedding domain**
+- The **embedding domain**
 ![image](https://github.com/user-attachments/assets/a9028640-b4e4-48cc-9bb9-cf3cbebbe9f0)
 
 This demo can be readily adapted to your own EM datasets.
