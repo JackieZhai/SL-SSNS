@@ -1,0 +1,29 @@
+NAME: 'SL'
+
+MODEL:
+  model_type: 'superhuman'
+  input_nc: 1
+  output_nc: 1
+  if_sigmoid: True
+  init_mode_mala: 'kaiming'
+  if_skip: 'False'
+  filters: [28, 36, 48, 64, 80]
+  upsample_mode: 'transposeS'
+  decode_ratio: 1
+  merge_mode: 'cat'
+  pad_mode: 'zero'
+  bn_mode: 'async'
+  relu_mode: 'elu'
+  init_mode: 'kaiming_normal'
+  crop_size: [18, 160, 160]
+  out_size: [18, 160, 160]
+  data_list: ['ac3.tif']
+  folder_name: './data'
+  stride: [8, 40, 40]
+  model_pth: 'selection_model.ckpt'
+
+CGS:
+  subvolume_num: 4
+  n_neighbors_list: [30,]
+  window_size: [1, 9, 9]
+  point_cloud_size: [15, 23, 23]
