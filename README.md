@@ -3,7 +3,7 @@ Official implementation of ["Addressing Distribution Mismatch for Effective Semi
 
 ## 🧪 Demo: Subvolume Selection
 
-To help users better understand and apply our method, we provide an interactive [**Colab demo**](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc#scrollTo=zy73yxP8xp2F) showcasing the **subvolume selection process** in both:
+To help users better understand and apply our method, we provide an interactive [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vPYYeaycpdQjDiu_TQD4LqQbjezf40yc) showcasing the **subvolume selection process** in both:
 
 - 🔹 The **spatial domain**
 - 🔹 The **embedding domain**
